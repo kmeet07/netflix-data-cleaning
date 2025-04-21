@@ -35,5 +35,5 @@ Netflix Movies and TV Shows from Kaggle
 ### 📁 Files Included
 - `netflix_titles.csv` – Original dataset
 - `cleaned_netflix_titles.csv` – Cleaned dataset
-- `netflix_cleaning.ipynb` – Jupyter notebook used for cleaning
+- `netflix_cleaning.py` – python file used for cleaning
 - `README.md` – Summary of work done
