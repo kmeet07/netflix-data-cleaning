@@ -15,7 +15,6 @@ print(df.isnull().sum())
 # Fill 'director' and 'cast' missing values with 'Unknown'
 df['director'].fillna('Unknown', inplace=True)
 df['cast'].fillna('Unknown', inplace=True)
-df['country'].fillna('Unknown', inplace=True)
 
 # Drop rows where 'country', 'date_added', or 'rating' is missing
 df.dropna(subset=['country', 'date_added', 'rating'], inplace=True)
